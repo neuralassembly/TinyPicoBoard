@@ -13,7 +13,7 @@ are supported.
 
 Scratch on NOOBS 1.9.3 and 2.0.0 (Raspbian 2016-09-23) has a bug and it cannot detect /dev/ttyAMA0. Until the next release of Raspbian,  please use 
 [NOOBS 1.9.2](http://downloads.raspberrypi.org/NOOBS/images/NOOBS-2016-05-31/ "NOOBS 1.9.2") or
-[Raspbian 2016-09-27](http://downloads.raspberrypi.org/raspbian/images/raspbian-2016-05-31/ "Raspbian 2016-09-27").
+[Raspbian 2016-05-27](http://downloads.raspberrypi.org/raspbian/images/raspbian-2016-05-31/ "Raspbian 2016-05-27").
 
 
 In order to disable the serial console, please remove "console=serial0,115200" from /boot/cmdline.txt. The result would be as follows.
