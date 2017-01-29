@@ -17,10 +17,7 @@ are supported.
 
 ### 1. Set up of Raspberry Pi
 
-Scratch on NOOBS 1.9.3 and 2.0.0 (Raspbian 2016-09-23) has a bug and it cannot detect /dev/ttyAMA0. Until the next release of Raspbian,  please use 
-[NOOBS 1.9.2](http://downloads.raspberrypi.org/NOOBS/images/NOOBS-2016-05-31/ "NOOBS 1.9.2") or
-[Raspbian 2016-05-27](http://downloads.raspberrypi.org/raspbian/images/raspbian-2016-05-31/ "Raspbian 2016-05-27").
-
+Scratch on NOOBS 1.9.3 and 2.0.0 (Raspbian 2016-09-23) has a bug and it cannot detect /dev/ttyAMA0. Please use NOOBS 2.1.0 (Raspbian 2016-11-25) or later.
 
 In order to disable the serial console, please remove "console=serial0,115200" from /boot/cmdline.txt. The result would be as follows.
 
